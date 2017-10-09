@@ -7,6 +7,70 @@
   position: absolute;
   top: 100px;
   left: 400px;
+  height: 400px;
+  width: 600px;
+}
+.container #video {
+  display: block;
+}
+.container .contr .playOrPause {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+.container .contr .playOrPause .play {
+  float: left;
+  display: none;
+  cursor: pointer;
+}
+.container .contr .playOrPause .pause {
+  cursor: pointer;
+  float: left;
+}
+.container .contr .bar1 {
+  margin: 7px 10px 0 10px;
+  float: left;
+  width: 200px;
+  height: 3px;
+  border: 3px solid #000000;
+}
+.container .contr .bar1 .progress1 {
+  height: 3px;
+  width: 200px;
+  background: greenyellow;
+  cursor: pointer;
+}
+.container .contr .time {
+  float: left;
+}
+.container .contr .vox {
+  float: left;
+  cursor: pointer;
+}
+.container .contr .vox :nth-child(2) {
+  display: none;
+  cursor: pointer;
+}
+.container .contr .bar2 {
+  margin: 7px 10px 0 10px;
+  float: left;
+  width: 100px;
+  height: 3px;
+  border: 2px solid #000000;
+}
+.container .contr .bar2 .progress2 {
+  height: 3px;
+  width: 100px;
+  background: orange;
+  cursor: pointer;
+}
+.container .contr .up {
+  cursor: pointer;
+}
+.container .contr .down {
+  cursor: pointer;
 }
 
 @font-face {

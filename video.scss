@@ -6,6 +6,73 @@
     position: absolute;
     top:100px;
     left: 400px;
+    height: 400px;
+    width: 600px;
+    #video{
+        display: block;
+    }
+    .contr{
+        .playOrPause{
+            float: left;
+            margin-right: 5px;
+            margin-left: 5px;
+            width: 15px;
+            height: 15px;
+            .play{
+                float: left;
+                display: none;
+                cursor: pointer;
+            }
+            .pause{
+                cursor: pointer;
+                float: left;
+            }
+        }
+        .bar1{
+            
+            margin: 7px 10px 0 10px;
+            float: left;
+            width: 200px;
+            height: 3px;
+            border: 3px solid #000000;
+            .progress1{
+                height: 3px;
+                width: 200px;
+                background: greenyellow;
+                cursor: pointer;  
+            }
+        }
+        .time{
+            float: left;
+        }
+        .vox{
+            float: left;
+            cursor: pointer;
+        }
+        .vox :nth-child(2){
+            display: none;
+            cursor: pointer;
+        }
+        .bar2{
+            margin: 7px 10px 0 10px;
+            float: left;
+            width: 100px;
+            height: 3px;
+            border: 2px solid #000000;
+            .progress2{
+                height: 3px;
+                width: 100px;
+                background: orange;  
+                cursor: pointer;
+            }
+        }
+        .up{
+            cursor: pointer;
+        }
+        .down{
+            cursor: pointer;
+        }
+    }
 }
 @font-face {
   font-family: 'iconfont';
